@@ -1,0 +1,28 @@
+# Jekyll config for the GaariLog public site, served via GitHub Pages.
+# Source = `main` branch, `/web` folder (configured in repo Settings → Pages).
+#
+# This site exists to host public-facing documents — primarily the privacy
+# policy, which the App Store and Play Store listings link to. The dev-side
+# docs (todo.md, decisions.md, week-N-plan.md, mvp.md) live under /docs and
+# are intentionally NOT published here.
+
+title: GaariLog
+description: A car service & expense tracker for Indian vehicle owners. Local-only, no cloud, no tracking.
+theme: minima
+
+# Repository root, used to construct the baseurl for github.io
+baseurl: "/car-log-app"
+url: "https://akagr.github.io"
+
+# minima theme footer links — the theme renders these in a sidebar/footer
+minima:
+  date_format: "%Y-%m-%d"
+
+# GitHub Pages applies a safe-mode include list by default. The `web/` folder
+# contains only the files we want published; nothing under /docs, /lib, /test,
+# /android, /ios is even visible to Jekyll because Pages reads from /web.
+
+# Plugins available on GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

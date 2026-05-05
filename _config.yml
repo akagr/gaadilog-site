@@ -1,17 +1,20 @@
 # Jekyll config for the GaariLog public site, served via GitHub Pages.
-# Source = `main` branch, `/web` folder (configured in repo Settings → Pages).
 #
-# This site exists to host public-facing documents — primarily the privacy
-# policy, which the App Store and Play Store listings link to. The dev-side
-# docs (todo.md, decisions.md, week-N-plan.md, mvp.md) live under /docs and
-# are intentionally NOT published here.
+# Canonical source is `web/` in the private `akagr/car-log-app` repo. This
+# folder is mirrored to the public `akagr/gaarilog-site` repo via
+# `tool/publish-site.sh`, which wraps `git subtree push`. GitHub Pages on
+# the public repo serves from `main` branch, root folder.
+#
+# The dev-side docs (todo.md, decisions.md, week-N-plan.md, mvp.md) live
+# under /docs in the source repo and are intentionally NOT mirrored here.
 
 title: GaariLog
 description: A car service & expense tracker for Indian vehicle owners. Local-only, no cloud, no tracking.
 theme: minima
 
-# Repository root, used to construct the baseurl for github.io
-baseurl: "/car-log-app"
+# baseurl is the path the site lives at on github.io. The public mirror is
+# https://akagr.github.io/gaarilog-site/ — so baseurl is /gaarilog-site.
+baseurl: "/gaarilog-site"
 url: "https://akagr.github.io"
 
 # minima theme footer links — the theme renders these in a sidebar/footer

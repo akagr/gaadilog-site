@@ -8,5 +8,3 @@ GaariLog is a car service & expense tracker for Indian vehicle owners. Track eve
 Public documents:
 
 - [Privacy Policy]({{ "/privacy-policy/" | relative_url }})
-
-Source code: [github.com/akagr/car-log-app](https://github.com/akagr/car-log-app)

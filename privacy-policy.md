@@ -5,17 +5,17 @@ permalink: /privacy-policy/
 ---
 
 **Effective date**: 2026-05-05
-**App**: GaariLog (`me.akashagrawal.gaarilog`)
+**App**: GaadiLog (`me.akashagrawal.gaadilog`)
 **Developer**: Akash Agrawal
 **Contact**: akagr@outlook.com
 
-This is a short, plain-English description of how GaariLog handles your data. There is no legalese boilerplate because there is no data collection to describe in legalese.
+This is a short, plain-English description of how GaadiLog handles your data. There is no legalese boilerplate because there is no data collection to describe in legalese.
 
 ## What we collect
 
 **Nothing.**
 
-GaariLog stores everything you log — vehicles, fuel-ups, services, documents, reminders, photos — only on your device. We do not have a server. We do not have an account system. There is no sign-up, no login, no cloud sync, no backup to our infrastructure, and no way for us to read what you log even if we wanted to.
+GaadiLog stores everything you log — vehicles, fuel-ups, services, documents, reminders, photos — only on your device. We do not have a server. We do not have an account system. There is no sign-up, no login, no cloud sync, no backup to our infrastructure, and no way for us to read what you log even if we wanted to.
 
 ## What permissions we ask for, and why
 
@@ -34,18 +34,18 @@ Nothing. There is no third-party analytics SDK, no crash-reporting SDK, no adver
 
 In the app's private storage on your device, in a SQLite database file. Specifically:
 
-- iOS: in the app's container directory, accessible only to GaariLog itself and to iOS system tools.
-- Android: in the app's internal storage directory, accessible only to GaariLog itself.
+- iOS: in the app's container directory, accessible only to GaadiLog itself and to iOS system tools.
+- Android: in the app's internal storage directory, accessible only to GaadiLog itself.
 
 If you delete the app, this data is deleted along with it. There is no remote copy.
 
 ## Export
 
-You can export your data at any time as CSV (per vehicle, or for all vehicles) and as PDF (a per-vehicle service-history report). The OS share sheet then hands the file to whichever app you choose. Once it leaves GaariLog's share sheet, the receiving app's privacy policy applies — not ours.
+You can export your data at any time as CSV (per vehicle, or for all vehicles) and as PDF (a per-vehicle service-history report). The OS share sheet then hands the file to whichever app you choose. Once it leaves GaadiLog's share sheet, the receiving app's privacy policy applies — not ours.
 
 ## Children
 
-GaariLog has no age gate because it does not collect personal information from anyone. The Indian-market context (the primary target audience) means most users will be adults registering vehicles, but there is nothing in the app that identifies, tracks, or profiles users of any age.
+GaadiLog has no age gate because it does not collect personal information from anyone. The Indian-market context (the primary target audience) means most users will be adults registering vehicles, but there is nothing in the app that identifies, tracks, or profiles users of any age.
 
 ## Changes to this policy
 

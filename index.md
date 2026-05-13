@@ -12,9 +12,9 @@ description: A car log book for Indian vehicle owners. Fuel, service, RC / Insur
     <div class="hero__rule" aria-hidden="true"></div>
   </div>
 
-  <div class="stamp" aria-label="Version 1.0, 2026">
+  <div class="stamp" aria-label="Version 1.1, 2026">
     <span class="stamp__small">Vol. I</span>
-    <span class="stamp__big">v1.0</span>
+    <span class="stamp__big">v1.1</span>
     <span class="stamp__small">MMXXVI</span>
   </div>
 </section>

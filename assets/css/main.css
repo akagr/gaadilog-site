@@ -508,9 +508,8 @@ a { color: inherit; }
 .gallery__title em { font-style: normal; color: var(--burgundy); }
 
 .gallery__strip {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: clamp(180px, 65vw, 260px);
+  display: flex;
+  flex-wrap: nowrap;
   gap: 1.5rem;
   overflow-x: auto;
   overscroll-behavior-x: contain;
@@ -529,6 +528,8 @@ a { color: inherit; }
 }
 
 .gallery figure {
+  flex: 0 0 clamp(180px, 65vw, 240px);
+  width: clamp(180px, 65vw, 240px);
   scroll-snap-align: start;
   margin: 0;
   display: flex;
@@ -577,9 +578,10 @@ a { color: inherit; }
 }
 
 @media (min-width: 760px) {
-  .gallery__strip {
-    grid-auto-columns: 240px;
-    gap: 2rem;
+  .gallery__strip { gap: 2rem; }
+  .gallery figure {
+    flex: 0 0 240px;
+    width: 240px;
   }
 }
 

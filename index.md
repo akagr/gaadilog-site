@@ -73,6 +73,36 @@ Track every fuel-up, every service, every document — for every car, bike, or s
   </article>
 </section>
 
+<section class="gallery" aria-labelledby="gallery-title">
+  <h2 id="gallery-title" class="gallery__title">
+    <span>A few pages from the log</span>
+    <em>स्क्रीनशॉट</em>
+  </h2>
+  <div class="gallery__strip">
+    <figure>
+      <img src="{{ '/assets/images/screenshots/01_vehicles_list.png' | relative_url }}" alt="The vehicles list — a stack of saved cars with photos and registration numbers." loading="lazy" width="660" height="1434">
+      <figcaption><strong>01</strong>Vehicles</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/screenshots/02_vehicle_detail.png' | relative_url }}" alt="A single vehicle's detail screen with fuel summary, km/l chart, and document expiry pills." loading="lazy" width="660" height="1434">
+      <figcaption><strong>02</strong>Vehicle detail</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/screenshots/03_fuel_history.png' | relative_url }}" alt="Fuel history — a list of fill-ups with km/l and ₹/km and a trend chart on top." loading="lazy" width="660" height="1434">
+      <figcaption><strong>03</strong>Fuel history</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/screenshots/05_documents.png' | relative_url }}" alt="Documents list — RC, Insurance, and PUC entries with expiry pills." loading="lazy" width="660" height="1434">
+      <figcaption><strong>04</strong>Documents</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/screenshots/06_reminders.png' | relative_url }}" alt="Reminders feed — auto-created and custom reminders with due dates." loading="lazy" width="660" height="1434">
+      <figcaption><strong>05</strong>Reminders</figcaption>
+    </figure>
+  </div>
+  <p class="gallery__hint">← scroll →</p>
+</section>
+
 <section class="assurance" aria-labelledby="assurance-title">
   <span class="assurance__label">A promise</span>
   <p id="assurance-title" class="assurance__big">Your data stays on your <em>phone.</em></p>

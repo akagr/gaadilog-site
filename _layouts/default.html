@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title and page.url != "/" %}{{ page.title }} · {% endif %}GaadiLog{% if page.url == "/" %} · A log book for Indian vehicles{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+<meta name="theme-color" content="#7C2D12">
+<meta property="og:title" content="GaadiLog · A log book for Indian vehicles">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:type" content="website">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="folio" role="banner">
+  <div class="folio__left">
+    <a class="folio__mark" href="{{ '/' | relative_url }}">GaadiLog</a>
+    <span class="folio__sub">Book of Vehicles · पन्ना</span>
+  </div>
+  <nav class="folio__nav" aria-label="Primary">
+    <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
+    <a href="{{ '/privacy-policy/' | relative_url }}"{% if page.url == "/privacy-policy/" %} aria-current="page"{% endif %}>Privacy</a>
+  </nav>
+</header>
+
+<main class="page" id="main" role="main">
+  {{ content }}
+</main>
+
+<footer class="colophon" role="contentinfo">
+  <div class="colophon__inner">
+    <div>
+      <h3>About</h3>
+      <p class="colophon__sig">— Akash Agrawal</p>
+      <p>A solo project, hand-built in India for Indian vehicle owners. GaadiLog is the digital log book your car should have had all along.</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p><a href="mailto:akagr@outlook.com">akagr@outlook.com</a></p>
+      <p><a href="{{ '/privacy-policy/' | relative_url }}">Privacy policy</a></p>
+    </div>
+    <div>
+      <h3>Colophon</h3>
+      <p>Set in <em>Fraunces</em>, <em>IBM Plex Sans</em>, <em>IBM Plex Mono</em>.</p>
+      <p>v1.0 · MMXXVI</p>
+    </div>
+  </div>
+  <p class="colophon__motto">No accounts &nbsp;·&nbsp; No cloud &nbsp;·&nbsp; No tracking &nbsp;·&nbsp; <strong>Your data stays on your phone</strong></p>
+</footer>
+
+</body>
+</html>

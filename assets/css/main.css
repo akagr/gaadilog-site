@@ -184,16 +184,15 @@ a { color: inherit; }
    ================================================================ */
 
 .hero {
-  padding: 4.5rem 0 2rem;
+  padding: 3.5rem 0 2rem;
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 2.5rem;
+  grid-template-columns: 1fr auto;
+  gap: 1.25rem;
   align-items: start;
 }
 
 @media (min-width: 760px) {
   .hero {
-    grid-template-columns: 1fr auto;
     gap: 3.5rem;
     padding: 5.5rem 0 3rem;
   }
@@ -251,9 +250,9 @@ a { color: inherit; }
 
 .stamp {
   position: relative;
-  width: clamp(8.5rem, 18vw, 11.5rem);
+  width: clamp(6rem, 24vw, 11.5rem);
   aspect-ratio: 1;
-  border: 2.5px solid var(--stamp);
+  border: 2px solid var(--stamp);
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -264,8 +263,8 @@ a { color: inherit; }
   font-family: var(--font-mono);
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  font-size: 0.65rem;
-  padding: 1.4rem;
+  font-size: clamp(0.5rem, 1.2vw, 0.65rem);
+  padding: clamp(0.7rem, 2.2vw, 1.4rem);
   text-align: center;
   opacity: 0.94;
 
@@ -299,18 +298,18 @@ a { color: inherit; }
 }
 
 .stamp__small {
-  font-size: 0.62rem;
-  letter-spacing: 0.28em;
+  font-size: clamp(0.48rem, 1.2vw, 0.62rem);
+  letter-spacing: 0.25em;
   line-height: 1.2;
 }
 
 .stamp__big {
   font-family: var(--font-display);
-  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-size: clamp(1.25rem, 3.6vw, 2.4rem);
   font-weight: 600;
   letter-spacing: 0;
   line-height: 1;
-  margin: 0.4rem 0;
+  margin: clamp(0.2rem, 0.6vw, 0.4rem) 0;
   font-style: italic;
   font-variation-settings: "opsz" 144;
 }
@@ -769,21 +768,34 @@ a { color: inherit; }
 .ledger-table tr:last-child td { border-bottom: none; }
 
 @media (max-width: 640px) {
-  .ledger-table,
-  .ledger-table thead,
-  .ledger-table tbody,
-  .ledger-table tr,
-  .ledger-table td { display: block; width: 100%; }
   .ledger-table thead { display: none; }
-  .ledger-table td:first-child {
-    padding-bottom: 0.25rem;
-    border-bottom: none;
-    color: var(--burgundy);
+
+  .ledger-table,
+  .ledger-table tbody { display: block; }
+
+  .ledger-table tr {
+    display: block;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .ledger-table tr:last-child { border-bottom: none; }
+
+  .ledger-table td {
+    display: block;
+    padding: 0;
+    border: none;
     width: auto;
   }
-  .ledger-table td:nth-child(2) { padding-top: 0.25rem; }
-  .ledger-table tr { padding: 1.25rem 0; border-bottom: 1px solid var(--rule-soft); }
-  .ledger-table tr:last-child { border-bottom: none; }
+  .ledger-table td:first-child {
+    color: var(--burgundy);
+    margin-bottom: 0.5rem;
+    width: auto;
+  }
+  .ledger-table td:first-child small {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 0.6rem;
+  }
 }
 
 /* ================================================================

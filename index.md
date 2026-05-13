@@ -24,9 +24,8 @@ Track every fuel-up, every service, every document — for every car, bike, or s
 </p>
 
 <div class="cta">
-  <a href="#" class="cta__btn" aria-label="Download GaadiLog on the App Store">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 12.6c0-3 2.5-4.5 2.5-4.5s-1.5-2.1-4-2.1c-2 0-3 1-4 1s-2-1-4-1c-2.5 0-5 2-5 6 0 5 4 9 6 9 1 0 1.5-.5 3-.5s2 .5 3 .5c2 0 3.5-2 4.5-4-2 0-2.5-2-2.5-4.4zm-3.5-7.1c1-1 1-2.5 1-3-1 0-2.5.5-3.5 1.5s-1 2.5-1 3c1 0 2.5-.5 3.5-1.5z"/></svg>
-    <span><small>Download on the</small><strong>App Store</strong></span>
+  <a href="https://apps.apple.com/in/app/gaadilog/id6766937261" class="cta__badge" aria-label="Download GaadiLog on the App Store">
+    <img src="{{ '/assets/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store" width="180" height="60" loading="eager">
   </a>
   <p class="cta__meta">iPhone, iOS 15.0 or later · Free · <strong>Android coming soon</strong></p>
 </div>

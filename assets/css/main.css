@@ -354,52 +354,33 @@ a { color: inherit; }
   align-items: flex-start;
 }
 
-.cta__btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.85rem;
-  background: var(--ink);
-  color: var(--paper);
-  text-decoration: none;
-  padding: 1rem 1.6rem;
-  border-radius: 4px;
-  font-family: var(--font-body);
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  transition: transform 200ms ease, background 200ms ease, box-shadow 200ms ease;
-  box-shadow: 0 1px 0 rgba(28, 22, 18, 0.15);
+/* App Store badge — Apple's official artwork.
+   Per Apple's marketing guidelines: do not recolor, restretch, or
+   reposition the lockup; minimum height is 40pt; preserve clear
+   space on all sides equal to at least 1/10 of badge height. */
+.cta__badge {
+  display: inline-block;
+  padding: 6px;          /* doubles as Apple's required clear space */
+  margin: -6px;          /* keeps visual layout where it would be without padding */
+  border-radius: 8px;
+  transition: transform 200ms ease, opacity 200ms ease;
+  line-height: 0;
 }
 
-.cta__btn:hover,
-.cta__btn:focus-visible {
+.cta__badge:hover,
+.cta__badge:focus-visible {
   transform: translateY(-1px);
-  background: var(--burgundy);
-  box-shadow: 0 6px 16px rgba(124, 45, 18, 0.22);
+  opacity: 0.86;
 }
 
-.cta__btn svg {
-  width: 26px;
-  height: 26px;
-  fill: var(--paper);
-}
-
-.cta__btn small {
+.cta__badge img {
   display: block;
-  font-size: 0.62rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  font-weight: 400;
-  color: rgba(244, 235, 219, 0.72);
-  line-height: 1;
-  margin-bottom: 0.3rem;
+  height: 56px;
+  width: auto;
 }
 
-.cta__btn strong {
-  display: block;
-  font-size: 1.1rem;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: -0.01em;
+@media (max-width: 480px) {
+  .cta__badge img { height: 48px; }
 }
 
 .cta__meta {

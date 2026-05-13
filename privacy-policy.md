@@ -118,7 +118,7 @@ description: GaadiLog collects nothing by default. Optional anonymous analytics,
 
 <p>If you delete the app, this data is deleted along with it. There is no remote copy.</p>
 
-<p>If you have turned analytics on, the anonymous events described earlier also live in PostHog's <strong>[TBD: EU / US]</strong> cloud infrastructure, retained for 12 months and then discarded. Uninstalling the app does not retroactively delete events already sent — but no new events will be sent.</p>
+<p>If you have turned analytics on, the anonymous events described earlier also live in PostHog's <strong>EU</strong> cloud infrastructure (GCP Frankfurt), retained for 12 months and then discarded. Uninstalling the app does not retroactively delete events already sent — but no new events will be sent.</p>
 
 <h2>Export</h2>
 

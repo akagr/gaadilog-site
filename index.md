@@ -106,6 +106,6 @@ Track every fuel-up, every service, every document — for every car, bike, or s
 <section class="assurance" aria-labelledby="assurance-title">
   <span class="assurance__label">A promise</span>
   <p id="assurance-title" class="assurance__big">Your data stays on your <em>phone.</em></p>
-  <p class="assurance__body">No accounts. No cloud sync. No tracking SDKs. No analytics. No ads. Everything you log lives only in GaadiLog's private storage on your device. Delete the app and the data goes with it — there is genuinely no remote copy.</p>
+  <p class="assurance__body">No accounts. No cloud sync. No ad trackers. Everything you log — vehicles, fuel-ups, services, photos — lives only in GaadiLog's private storage on your device. Delete the app and the data goes with it; there is genuinely no remote copy. The one thing that can optionally leave the device is anonymous usage analytics (event names like <code>fuel_logged</code>, never your data) — off by default in Settings → Privacy.</p>
   <a class="assurance__link" href="{{ '/privacy-policy/' | relative_url }}">Read the privacy policy →</a>
 </section>

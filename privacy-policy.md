@@ -8,7 +8,7 @@ description: GaadiLog collects nothing by default. Optional anonymous analytics,
 <header class="policy-head">
   <h1 class="policy-head__title">A short, <em>honest</em> privacy policy.</h1>
   <dl class="policy-meta">
-    <dt>Effective</dt><dd>18 May 2026 · previously 05 May 2026</dd>
+    <dt>Effective</dt><dd>21 May 2026 · previously 18 May 2026, 05 May 2026</dd>
     <dt>App</dt><dd>GaadiLog · <span style="color:var(--ink-soft)">me.akashagrawal.gaadilog</span></dd>
     <dt>By</dt><dd>Akash Agrawal</dd>
     <dt>Contact</dt><dd><a href="mailto:akagr@outlook.com">akagr@outlook.com</a></dd>
@@ -17,7 +17,7 @@ description: GaadiLog collects nothing by default. Optional anonymous analytics,
 
 <div class="prose" markdown="0">
 
-<p>This is a plain-English description of how GaadiLog handles your data. The optional analytics toggle described here was added in <strong>GaadiLog v1.2</strong>. If you are on v1.0 or v1.1, the app collects nothing at all and there is no toggle to flip — only the section immediately below applies to you. v1.2 still collects nothing by default; the toggle is opt-in and lives in Settings → Privacy.</p>
+<p>This is a plain-English description of how GaadiLog handles your data. GaadiLog collects nothing by default. There is an optional analytics toggle in Settings → Privacy — off out of the box, opt-in only. The rest of this page describes what that toggle does if you turn it on.</p>
 
 <h2>What we collect — by default</h2>
 
@@ -30,7 +30,7 @@ description: GaadiLog collects nothing by default. Optional anonymous analytics,
 
 <h2>What changes if you turn analytics on</h2>
 
-<p>In <strong>GaadiLog v1.2 and later</strong>, Settings → Privacy has a toggle, <strong>off out of the box</strong>, labeled <em>"Share anonymous usage data."</em> Turning it on sends a small stream of anonymous events to our analytics provider, <a href="https://posthog.com">PostHog</a>, so we can see which features get used and catch errors before they hit users at scale.</p>
+<p>Settings → Privacy has a toggle, <strong>off out of the box</strong>, labeled <em>"Share anonymous usage data."</em> Turning it on sends a small stream of anonymous events to our analytics provider, <a href="https://posthog.com">PostHog</a>, so we can see which features get used and catch errors before they hit users at scale.</p>
 
 <table class="ledger-table">
   <thead>
@@ -130,7 +130,7 @@ description: GaadiLog collects nothing by default. Optional anonymous analytics,
 
 <h2>Changes to this policy</h2>
 
-<p>If the policy changes, the new version appears at the same URL with an updated effective date. Material changes — anything that affects what data leaves your device — also surface in-app via a one-time upgrade banner the next time you open it. The v1.2 update (introducing the optional analytics toggle described above) was the most recent such change.</p>
+<p>If the policy changes, the new version appears at the same URL with an updated effective date. Material changes — anything that affects what data leaves your device — also surface in-app via a one-time upgrade banner the next time you open it. The most recent such change was v1.2, which introduced the optional analytics toggle described above.</p>
 
 <h2>Contact</h2>
 

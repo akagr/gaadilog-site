@@ -27,7 +27,10 @@ Track every fuel-up, every service, every document — for every car, bike, or s
   <a href="https://apps.apple.com/in/app/gaadilog/id6766937261" class="cta__badge" aria-label="Download GaadiLog on the App Store">
     <img src="{{ '/assets/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store" width="180" height="60" loading="eager">
   </a>
-  <p class="cta__meta">iPhone, iOS 26 or later · Free · <strong>Android coming soon</strong></p>
+  <a href="https://play.google.com/store/apps/details?id=me.akashagrawal.gaadilog" class="cta__badge" aria-label="Get GaadiLog on Google Play">
+    <img src="{{ '/assets/images/google-play-badge.svg' | relative_url }}" alt="Get it on Google Play" width="180" height="60" loading="eager">
+  </a>
+  <p class="cta__meta">iPhone, iOS 26+ · Android 6.0+ · Free</p>
 </div>
 
 <section class="entries" aria-labelledby="entries-title">

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="119.66407" height="40" viewBox="0 0 119.66407 40" role="img" aria-label="Get it on Google Play">
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" viewBox="0 0 135 40" role="img" aria-label="Get it on Google Play">
   <title>Get it on Google Play</title>
-  <rect x="0.5" y="0.5" width="118.66407" height="39" rx="6" ry="6" fill="#000" stroke="#a6a6a6" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="134" height="39" rx="6" ry="6" fill="#000" stroke="#a6a6a6" stroke-width="1"/>
   <!-- Play triangle: blue left fold, green top, red bottom, yellow/orange tip -->
   <g>
     <polygon points="13,9 13,31 17.5,20" fill="#00C3FF"/>
@@ -8,6 +8,6 @@
     <polygon points="13,31 17.5,20 32,24.5" fill="#FF3D47"/>
     <polygon points="17.5,20 32,15.5 32,24.5" fill="#FFC400"/>
   </g>
-  <text x="41" y="15.5" fill="#fff" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="6.5" letter-spacing="0.8">GET IT ON</text>
-  <text x="40.5" y="31" fill="#fff" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" font-weight="500">Google Play</text>
+  <text x="42" y="15.5" fill="#fff" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="6.5" letter-spacing="0.8" textLength="42" lengthAdjust="spacingAndGlyphs">GET IT ON</text>
+  <text x="42" y="31" fill="#fff" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" font-weight="500" textLength="86" lengthAdjust="spacingAndGlyphs">Google Play</text>
 </svg>

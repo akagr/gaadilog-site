@@ -336,6 +336,15 @@ a { color: inherit; }
   align-items: flex-start;
 }
 
+/* Both store badges share a row; wrap only when there's truly no width. */
+.cta__badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+}
+
 /* App Store badge — Apple's official artwork.
    Per Apple's marketing guidelines: do not recolor, restretch, or
    reposition the lockup; minimum height is 40pt; preserve clear

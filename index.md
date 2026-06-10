@@ -97,12 +97,16 @@ Track every fuel-up, every service, every document — for every car, bike, or s
       <figcaption><strong>03</strong>Fuel history</figcaption>
     </figure>
     <figure>
+      <img src="{{ '/assets/images/screenshots/08_insights.png' | relative_url }}" alt="Insights — total spent, running cost per kilometre, distance and average monthly spend, with monthly spending bars and a fuel-vs-service breakdown." loading="lazy" width="660" height="1434">
+      <figcaption><strong>04</strong>Insights</figcaption>
+    </figure>
+    <figure>
       <img src="{{ '/assets/images/screenshots/05_documents.png' | relative_url }}" alt="Documents list — RC, Insurance, and PUC entries with expiry pills." loading="lazy" width="660" height="1434">
-      <figcaption><strong>04</strong>Documents</figcaption>
+      <figcaption><strong>05</strong>Documents</figcaption>
     </figure>
     <figure>
       <img src="{{ '/assets/images/screenshots/06_reminders.png' | relative_url }}" alt="Reminders feed — auto-created and custom reminders with due dates." loading="lazy" width="660" height="1434">
-      <figcaption><strong>05</strong>Reminders</figcaption>
+      <figcaption><strong>06</strong>Reminders</figcaption>
     </figure>
   </div>
   <p class="gallery__hint">← scroll →</p>
